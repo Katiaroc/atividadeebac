@@ -12,11 +12,11 @@ Quando eu selecionar um <produto>
 E escolher <cor>, <tamanho> e <quantidade>
 Então deve exibir uma <mensagem> de item obrigatório
 
-Exemplos:
-produto  | cor      | tamanho | quantidade | mensagem
-"camisa" | "verde"   | "M"     | "2"        | "Item obrigatório"
-"body" | "branco"  | "M"     | "2"        | "Item obrigatório"
-"calça"   | "preta"| "38"    | "2"        | "Item obrigatório"
+| produto | cor     | tamanho | quantidade | mensagem            |
+|---------|---------|---------|------------|---------------------|
+| "camisa"| "verde" | "M"     | "2"        | "Item obrigatório"  |
+| "body"  | "branco"| "M"     | "2"        | "Item obrigatório"  |
+| "calça" | "preta" | "38"    | "2"        | "Item obrigatório"  |
 
 Cenário: Quantidade de produto por venda
 Dado que eu acesse o catálogo de compras da EBAC-SHOP
@@ -52,30 +52,33 @@ Para finalizar minha compra
 
 Dado que eu acesse a tabela de cadastro com as seguintes informações:
 
-Nome | Sobrenome | País | Endereço | Cidade | CEP | Telefone | Endereço de e-mail
-"Mariana" | "da Silva" | "Brasil" | "Rua Favonius" | "São Paulo" | "05820-050" | "(11) 9606789" | "marianahenrique@ebac.com.br"
-"Raffael"  | "dos Santos"| "Brasil" | "Rua Marques"| "São Paulo" | "05820-050" | "(11) 956789890" | "raffael@ebac.com.br"
-"Anjelica" | "da Veiga"  | "Brasil" | "Rua Doutor"| "São Paulo" | "05820-050" | "(11) 967895432" | "anjelica@ebac.com.br"
+| Nome      | Sobrenome   | País    | Endereço        | Cidade      | CEP        | Telefone        | Endereço de e-mail           |
+|-----------|-------------|---------|-----------------|-------------|------------|-----------------|------------------------------|
+| "Mariana" | "da Silva"  | "Brasil"| "Rua Favonius"  | "São Paulo" | "05820-050"| "(11) 9606789"  | "marianahenrique@ebac.com.br"|
+| "Raffael" | "dos Santos"| "Brasil"| "Rua Marques"   | "São Paulo" | "05820-050"| "(11) 956789890"| "raffael@ebac.com.br"        |
+| "Anjelica"| "da Veiga"  | "Brasil"| "Rua Doutor"    | "São Paulo" | "05820-050"| "(11) 967895432"| "anjelica@ebac.com.br"       |
 
 Quando eu inserir as informações obrigatórias
 Então deve exibir uma mensagem: "Cadastro efetuado com sucesso"
 
-Dado que eu acesse a tabela de cadastro com as seguintes informações:
+Dado que eu acesse a tabela de cadastro com as seguintes informações: 
 
-Nome | Sobrenome | País | Endereço | Cidade | CEP | Telefone | Endereço de e-mail
-"Mariana" | "da Silva" | "Brasil" | "Rua Favonius" | "São Paulo" | "05820-050" | "(11) 9606789" | "marianahenrique@ebac.com.br"
-"Raffael"  | "dos Santos"| "Brasil" | "Rua Marques"| "São Paulo" | "05820-050" | "(11) 956789890" | "raffael@ebac.com.br"
-"Anjelica" | "da Veiga"  | "Brasil" | "Rua Doutor"| "São Paulo" | "05820-050" | "(11) 967895432" | "anjelica@ebac.com.br"
+| Nome      | Sobrenome   | País    | Endereço        | Cidade      | CEP         | Telefone         | Endereço de e-mail            |
+|-----------|-------------|---------|-----------------|-------------|-------------|------------------|-------------------------------|
+| "Mariana" | "da Silva"  | "Brasil"| "Rua Favonius"  | "São Paulo" | "05820-050" | "(11) 9606789"   | "marianahenrique@ebac.coom.br"|
+| "Raffael" | "dos Santos"| "Brasil"| "Rua Marques"   | "São Paulo" | "05820-050" | "(11) 956789890" | "raffael@ebac.com..brr"       |
+| "Anjelica"| "da Veiga"  | "Brasil"| "Rua Doutor"    | "São Paulo" | "05820-050" | "(11) 967895432" | "anjelica@ebac.com.bbr"       |
 
 Quando eu inserir um e-mail inválido
 Então deve exibir uma mensagem de erro: "E-mail inválido"
 
 Dado que eu acesse a tabela de cadastro com as seguintes informações:
 
-Nome | Sobrenome | País | Endereço | Cidade | CEP | Telefone | Endereço de e-mail
-"Mariana" | "da Silva" | "Brasil" | "Rua Favonius" | "São Paulo" | "05820-050" | "(11) 9606789" | "marianahenrique@ebac.com.br"
-"Raffael"  | "dos Santos"| "Brasil" | "Rua Marques"| "São Paulo" | "05820-050" | "(11) 956789890" | "raffael@ebac.com.br"
-"Anjelica" | "da Veiga"  | "Brasil" | "Rua Doutor"| "São Paulo" | "05820-050" | "(11) 967895432" | "anjelica@ebac.com.br"
+| Nome     | Sobrenome  | País    | Endereço        | Cidade      | CEP        | Telefone        | Endereço de e-mail          |
+|----------|------------|---------|-----------------|-------------|------------|-----------------|-----------------------------|
+| "0000000"| "00000000" | "000000"| "00000000000"   | "000000000" | "00000000" | "(11) 000000000"| "0000000000000000000"       |
+| "0000000"| "000000000"| "000000"| "00000000000"   | "000000000" | "00000000" | "(11) 000000000"| "0000000000000000000"       |
+| "0000000"| "00000000" | "000000"| "00000000000"   | "000000000" | "00000000" | "(11) 000000000"| "0000000000000000000"       |
 
 Quando algum campo obrigatório estiver vazio
 Então deve exibir uma mensagem de alerta: "Preencha os itens obrigatórios"
