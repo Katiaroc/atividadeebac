@@ -54,7 +54,7 @@ Dado que eu acesse a tabela de cadastro com as seguintes informações:
 
 | Nome      | Sobrenome   | País    | Endereço        | Cidade      | CEP        | Telefone        | Endereço de e-mail           |
 |-----------|-------------|---------|-----------------|-------------|------------|-----------------|------------------------------|
-| "Mariana" | "da Silva"  | "Brasil"| "Rua Favonius"  | "São Paulo" | "05820-050"| "(11) 960678998"  | "marianahenrique@ebac.com.br"|
+| "Mariana" | "da Silva"  | "Brasil"| "Rua Favonius"  | "São Paulo" | "05820-050"| "(11) 960678998"| "marianahenrique@ebac.com.br"|
 | "Raffael" | "dos Santos"| "Brasil"| "Rua Marques"   | "São Paulo" | "05820-050"| "(11) 956789890"| "raffael@ebac.com.br"        |
 | "Anjelica"| "da Veiga"  | "Brasil"| "Rua Doutor"    | "São Paulo" | "05820-050"| "(11) 967895432"| "anjelica@ebac.com.br"       |
 
@@ -65,9 +65,9 @@ Dado que eu acesse a tabela de cadastro com as seguintes informações:
 
 | Nome      | Sobrenome   | País    | Endereço        | Cidade      | CEP         | Telefone         | Endereço de e-mail            |
 |-----------|-------------|---------|-----------------|-------------|-------------|------------------|-------------------------------|
-| "Mariana" | "da Silva"  | "Brasil"| "Rua Favonius"  | "São Paulo" | "05820-050" | "(11) 9606789"   | "marianahenrique@ebac.coom.br"|
-| "Raffael" | "dos Santos"| "Brasil"| "Rua Marques"   | "São Paulo" | "05820-050" | "(11) 956789890" | "raffael@ebac.com..brr"       |
-| "Anjelica"| "da Veiga"  | "Brasil"| "Rua Doutor"    | "São Paulo" | "05820-050" | "(11) 967895432" | "anjelica@ebac.com.bbr"       |
+| "Mariana" | "da Silva"  | "Brasil"| "Rua Favonius"  | "São Paulo" | "05820-050" | "(11) 9606789"   | "marianahenrique@ebac.coom.br"|  <!-- E-mail inválido -->
+| "Raffael" | "dos Santos"| "Brasil"| "Rua Marques"   | "São Paulo" | "05820-050" | "(11) 956789890" | "raffael@ebac.com..brr"       |  <!-- E-mail inválido -->
+| "Anjelica"| "da Veiga"  | "Brasil"| "Rua Doutor"    | "São Paulo" | "05820-050" | "(11) 967895432" | "anjelica@ebac.com.bbr"       |  <!-- E-mail inválido -->
 
 Quando eu inserir um e-mail inválido
 Então deve exibir uma mensagem de erro: "E-mail inválido"
