@@ -46,9 +46,6 @@ Dado que eu acesse a tabela de cadastro com as seguintes informações:
 Quando eu inserir um e-mail inválido  
 Então deve exibir uma mensagem de erro: "E-mail inválido".
 
-Quando eu inserir um e-mail inválido  
-Então deve exibir uma mensagem de erro: "E-mail inválido".
-
 ## Cenário: Campos obrigatórios vazios
 Dado que eu acesse a tabela de cadastro com as seguintes informações:
 
