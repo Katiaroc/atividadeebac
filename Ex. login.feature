@@ -22,7 +22,7 @@ Como cliente da EBAC-SHOP
 Quero concluir meu Cadastro  
 Para finalizar minha compra.
 
-## Cenário: Cadastro bem-sucedido
+Cenário: Cadastro bem-sucedido
 Dado que eu acesse a tabela de cadastro com as seguintes informações:
 
 | Nome      | Sobrenome   | País    | Endereço        | Cidade      | CEP        | Telefone        | Endereço de e-mail           |
@@ -34,7 +34,7 @@ Dado que eu acesse a tabela de cadastro com as seguintes informações:
 Quando eu inserir as informações obrigatórias  
 Então deve exibir uma mensagem: "Cadastro efetuado com sucesso".
 
-## Cenário: E-mail inválido
+Cenário: E-mail inválido
 Dado que eu acesse a tabela de cadastro com as seguintes informações: 
 
 | Nome      | Sobrenome   | País    | Endereço        | Cidade      | CEP         | Telefone         | Endereço de e-mail            |
@@ -46,7 +46,7 @@ Dado que eu acesse a tabela de cadastro com as seguintes informações:
 Quando eu inserir um e-mail inválido  
 Então deve exibir uma mensagem de erro: "E-mail inválido".
 
-## Cenário: Campos obrigatórios vazios
+Cenário: Campos obrigatórios vazios
 Dado que eu acesse a tabela de cadastro com as seguintes informações:
 
 | Nome     | Sobrenome  | País    | Endereço        | Cidade      | CEP        | Telefone        | Endereço de e-mail          |
