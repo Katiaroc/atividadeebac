@@ -10,10 +10,10 @@ Quando eu selecionar um <produto>
 E escolher <cor>, <tamanho> e <quantidade>
 Então deve exibir uma <mensagem> de item obrigatório
 
-| produto | cor     | tamanho | quantidade | mensagem            |
-| "camisa"| "verde" | "M"     | "2"        | "Item obrigatório"  |
-| "body"  | "branco"| "M"     | "2"        | "Item obrigatório"  |
-| "calça" | "preta" | "38"    | "2"        | "Item obrigatório"  |
+ produto | cor     | tamanho | quantidade | mensagem            
+ "camisa"| "verde" | "M"     | "2"        | "Item obrigatório"  
+ "body"  | "branco"| "M"     | "2"        | "Item obrigatório"  
+ "calça" | "preta" | "38"    | "2"        | "Item obrigatório"  
 
 Cenário: Quantidade de produto por venda
 Dado que eu acesse o catálogo de compras da EBAC-SHOP
