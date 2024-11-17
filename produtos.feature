@@ -13,7 +13,6 @@ E escolher <cor>, <tamanho> e <quantidade>
 Então deve exibir uma <mensagem> de item obrigatório
 
 | produto | cor     | tamanho | quantidade | mensagem            |
-|---------|---------|---------|------------|---------------------|
 | "camisa"| "verde" | "M"     | "2"        | "Item obrigatório"  |
 | "body"  | "branco"| "M"     | "2"        | "Item obrigatório"  |
 | "calça" | "preta" | "38"    | "2"        | "Item obrigatório"  |
