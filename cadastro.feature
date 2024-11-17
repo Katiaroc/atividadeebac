@@ -6,10 +6,10 @@ Para finalizar minha compra.
 Cenário: Cadastro bem-sucedido
 Dado que eu acesse a tabela de cadastro com as seguintes informações:
 
-| Nome      | Sobrenome   | País    | Endereço        | Cidade      | CEP        | Telefone        | Endereço de e-mail           |
- "Mariana"  | "da Silva"  | "Brasil" "Rua Favonius"   | "São Paulo" |"05820-050" | "(11) 960678998"| "marianahenrique@ebac.com.br"|
- "Raffael" | "dos Santos"| "Brasil"| "Rua Marques"   | "São Paulo" | "05820-050"| "(11) 956789890"| "raffael@ebac.com.br"        |
- "Anjelica"| "da Veiga"  | "Brasil"| "Rua Doutor"    | "São Paulo" | "05820-050"| "(11) 967895432"| "anjelica@ebac.com.br"       |
+ Nome      | Sobrenome   | País    | Endereço         | Cidade        | CEP        | Telefone          | Endereço de e-mail           
+ "Mariana" | "da Silva"  | "Brasil"|"Rua Favonius"    | "São Paulo"   | "05820-050" | "(11) 960678998"  | "marianahenrique@ebac.com.br"
+ "Raffael" | "dos Santos"| "Brasil" | "Rua Marques"   | "São Paulo" | "05820-050"| "(11) 956789890"| "raffael@ebac.com.br"        
+ "Anjelica"| "da Veiga"  | "Brasil" | "Rua Doutor"    | "São Paulo" | "05820-050"| "(11) 967895432"| "anjelica@ebac.com.br"       
 
 Quando eu inserir as informações obrigatórias  
 Então deve exibir uma mensagem: "Cadastro efetuado com sucesso".
