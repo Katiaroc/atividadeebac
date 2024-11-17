@@ -16,5 +16,3 @@ Dado que eu acesse minha conta no portal EBAC-SHOP
 Quando eu digitar o usuário "lucas@ebac.com.br"  
 E a senha "luh33"  
 Então deve exibir uma mensagem de alerta: "Usuário ou senha inválidos".
-
-
